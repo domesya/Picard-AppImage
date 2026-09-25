@@ -12,7 +12,8 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.musicbrainz.Picard.svg
 export DESKTOP=/usr/share/applications/org.musicbrainz.Picard.desktop
 export STARTUPWMCLASS=org.musicbrainz.Picard.desktop
 export DEPLOY_PYTHON=1
-
+export DEPLOY_QT=1
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 # Deploy dependencies
 quick-sharun \
   /usr/bin/picard
