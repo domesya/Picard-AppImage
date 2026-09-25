@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.musicbrainz.Picard.svg
 export DESKTOP=/usr/share/applications/org.musicbrainz.Picard.desktop
 export STARTUPWMCLASS=org.musicbrainz.Picard.desktop
+export DEPLOY_PYTHON=1
 
 # Deploy dependencies
 quick-sharun \
