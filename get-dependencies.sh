@@ -8,7 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   picard \
-  qt5ct lxqt-qtplugin kvantum
+  qt5ct qt6ct lxqt-qtplugin kvantum
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
